@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Web Portal MAHINDRA UNJ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/main-2.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="js/jquery-v1-12-4.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+         </head>
+          <body>
+          	<nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class=><i class="fas fa-book-reader fa-5x"></i></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" style="text-decoration: none;" href="#1">Home</a>
+                        <a class="link" onclick="enableAutoplay();" style="text-decoration: none;" href="#2">Profile</a>
+                        <a class="link" style="text-decoration: none;" href="#3">Kegiatan Kami</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--batas section 1-->
+        <section class="home animate__backInLeft" id="1">
+            <div class="container" id="fadeIn">
+
+            </div>  
+        </section>
+
+        <!--batas section 2-->
+        <section class="content animate__backInLeft" id="2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="heading-2 wow fadeInRightBig animated animated" style="color:#027B4F">Profile Singkat</h2>
+                        <hr>
+                        <h3 class="heading-3 wow fadeInLeftBig animated animated">
+                        <b>
+                            MAHINDRA UNJ merupakan singkatan dari Mahasiswa Indramayu Universitas Negeri Jakarta yang dimana suatu wadah paguyuban mahasiswa yang berasal dari daerah Kabupaten Indramayu yang melanjutkan perguruan tinggi negeri di Universitas Negeri Jakarta.
+                        </b>
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/logomahindra.png" width="300px" style="margin-top: -70px;" class="wow fadeInRightBig animated animated">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--batas section 3-->
+        <section class="content2" id="3">
+            <div class="container">
+                <div class="row">
+                    <h1 class="heading-1" style="text-align:center;10px;color:#027B4F">Kegiatan Kami</h1>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-4" style="margin-top:20px;">
+                        <div class="col-border">
+                            <i class="fas fa-user-cog fa-3x heading-3 wow fadeInLeftBig animated animated"></i>
+                            <hr>
+                            <h3 class="wow fadeInLeftBig animated animated">Program Kerja</h3>
+                            <h3 class="heading-3 wow fadeInLeftBig animated animated" style="text-align:left;margin:20px 10px;color:#02355D;">
+                                Berisikan penampilan Program Kerja yang dilaksanakan MAHINDRA UNJ
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="margin-top:20px;">
+                        <div class="col-border">
+                            <i class="fas fa-users-cog fa-3x heading-3 fadeInLeftBig animated animated"></i>
+                            <hr>
+                            <h3 class="wow fadeInLeftBig animated animated">Non - Program Kerja</h3>
+                            <h3 class="heading-3 wow fadeInLeftBig animated animated" style="text-align:left;margin:20px 10px;color:#02355D;">
+                                 Berisikan penampilan Non - Program Kerja yang dilaksanakan MAHINDRA UNJ
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInX animated animated" style="margin-top:20px;">
+                        <div class="col-border">
+                            <i class="fas fa-mobile-alt fa-3x heading-3 fadeInLeftBig animated animated"></i>
+                            <hr>
+                            <h3 class="wow fadeInLeftBig animated animated">Kontak Kami</h3>
+                            <h3 class="heading-3 wow fadeInLeftBig animated animated" style="text-align:left;margin:20px 10px;color:#02355D;">
+                                Email : mahindra.unj12@gmail.com  Instagram : @mahindra_unj  Facebook : Mahindra Unj
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<audio  id="myAudio" controls style="display: none;">
+  <source src="lagu/warungpojok.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+        <script type="text/javascript" src="js/wow.min.js"></script>        
+        <script type="text/javascript">
+         new WOW().init();
+         var x = document.getElementById("myAudio");
+                     function enableAutoplay() { 
+              x.autoplay = true;
+              x.load();
+            }
+        </script>
+    </body>
+</html> 
